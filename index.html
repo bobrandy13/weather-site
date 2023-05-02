@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+  </head>
+  
+  <body>
+    <div class="menubar">
+      <ul>
+        <li><a href="sydney.html">About Sydney</a></li>
+        <li><a href="Canberra.html">About Canberra</a></li>
+        <li><a href="aboutMe.html">About me</a></li>
+        <li><a href="Australia.html">Australia</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+  
+
+    </div>
+
+    <div class="container">
+      <div id="main-search">
+        <p>Weather App</p>
+        <div class="search-submit">
+            <input class="entry" type="text" id="city" placeholder="Enter your city here">
+            <button class="entry" id="submit" onclick="validateRequest()">Submit</button>
+          </div>
+        </div>
+      <div id="weatherData">
+        <p id="title">Weather Data</p>
+        <div class="tempIcon">
+          <img id="icon" src="sun.svg">
+          <p id="temp">Temp</p>
+        </div>
+        
+				<div class="forecast">
+          <h2>3 day Forecast</h2>
+					<table>
+						<tr>
+							<th id="date-1">Day 1</td>
+							<th id="date-2">Day 2</td>
+							<th id="date-3">Day 3</td>
+						</tr>
+						<tr>
+							<td id="day-1">26</td>
+							<td id="day-2">20</td>
+							<td id="day-3">19</td>
+						</tr>
+					</table>
+
+				</div>
+      </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+
+
+
+
+
+</html>

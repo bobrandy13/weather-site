@@ -1,0 +1,41 @@
+body { 
+  font-family: Arial; 
+  background-color: beige; 
+}
+
+body h1 { 
+  text-align: center;
+}
+
+.container, .container-australia { 
+  position: absolute;
+  width: 50%;
+  background-color: white;
+  height: auto;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  border: 1px solid black
+}
+
+.container p, .container-australia p { 
+  padding: 10px;
+
+}
+
+.container img { 
+  width: 400px;
+  padding: 25px;
+  float: right;
+  border-radius: 20px;
+}
+
+
+.container-australia img { 
+  width: 200px;
+  float: right;
+  padding-left: 20px;
+  margin: 20px;
+}
+/* this image is from https://en.wikipedia.org/wiki/Australia */
+
+
